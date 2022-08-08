@@ -4,7 +4,7 @@ import rigoImage from "../../img/rigo-baby.jpg";
 
 const Card = () => {
   return (
-    <div className="card w-25">
+    <div className="card w-auto mx-2">
       <img src={rigoImage} className="card-img-top" alt="..." />
       <div className="card-body">
         <h5 className="card-title">Card title</h5>
